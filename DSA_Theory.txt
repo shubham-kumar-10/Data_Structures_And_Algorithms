@@ -1,0 +1,11 @@
+Data Structures are a way of organize , store and manage data efficiently.  
+
+Some of the common data strutures are as follows:
+1) Array – Good for accessing data in O(1).
+2) Linked List – Efficient inserts/deletes (O(1) at head), slower random access.
+3) HashMap / Dictionary – Fast key-based lookups (O(1) average).
+4) Set/HashSet - Good for checking duplicates in O(1). 
+5) Stack - Follows LIFO (Last In First Out)
+6) Queue - Follows FIFO (First In First Out)
+7) Heap - This data structrue is helpful to find the maximum or minimum element quickly.
+  
