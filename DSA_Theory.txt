@@ -8,4 +8,5 @@ Some of the common data strutures are as follows:
 5) Stack - Follows LIFO (Last In First Out)
 6) Queue - Follows FIFO (First In First Out)
 7) Heap - This data structrue is helpful to find the maximum or minimum element quickly.
+8) Binary tree - A non linear data structure
   
