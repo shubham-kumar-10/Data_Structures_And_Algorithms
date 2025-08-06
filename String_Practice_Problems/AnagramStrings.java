@@ -1,6 +1,7 @@
+package Data_Structures_And_Algorithms.String_Practice_Problems;
 import java.util.*;
 class AnagramStrings{
-    public static String checkAnagramStrings(String str1,String str2){
+    public static boolean checkAnagramStrings(String str1,String str2){
        // Assuming that the str1 and str2 is having lowercase characters. If 
        int[] arr=new int[26];
        if(str1.length()!=str2.length())
