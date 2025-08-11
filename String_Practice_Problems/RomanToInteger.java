@@ -42,3 +42,6 @@ class RomanToInteger{
     System.out.println(obj.romanToInt("MCMXCIV")); 
   }
 }
+
+// Time complexity: O(N) 
+// Space complexity: O(1) as we are creating ahshmap with fixed number of key:value pairs
