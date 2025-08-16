@@ -22,5 +22,5 @@ class IntegerToRoman {
     }
 }
 
-// TC:O(N)
+// TC:O(1) as the number of digits is constant 
 // SC:O(constant space)
