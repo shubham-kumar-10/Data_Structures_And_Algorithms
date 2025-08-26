@@ -32,5 +32,6 @@ public class PrimeNumbersFrom1toN {
     }
 }
 
+// This code uses the Sieve of Eratosthenes algorithm to count prime numbers from 1 to N
 // TC: O(N log log N)
 // SC: O(N) because of the boolean array
