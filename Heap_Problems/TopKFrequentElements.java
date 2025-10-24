@@ -48,4 +48,10 @@ class TopKFrequentEleements{
 //         while minHeap:
 //             freq,num=heapq.heappop(minHeap)
 //             result.append(num)
-//         return result    
+//         return result     
+
+
+// In the same problem, if we have to find the kth distinct element, then in the above python code, 
+// we can create a set from the given list and then use the same code as it is.
+
+// new_list=list(set(arr))
