@@ -30,3 +30,16 @@ List.of()---> This is used to create truly immutable list. Can't add/remove or u
 List<String> result=List.of("A","B","C");
 result.set(1,"X"); ---> Throws UnsupportedOperation Exception
 
+----------------------------------------------------------------------------------------
+
+1) Why does HashMap allow one null key but hashtable does not?
+2) What happens internally when we call put() in a HashMap?
+3) How does a Set actually prevent duplicates?
+4) How does a TreeMap maintain its order?
+5) Difference between fail-fast and fail-safe iterators?
+6) Why is concurrenthashMap faster than Hashtable?
+7) What happens if we override equals() method but not hashCode()?
+8) When should we use CopyOnWriteArrayList over a synchronized list?
+9) How does a LinkedHashMap maintain insertion order?
+10) How does PriorityQueue work internally?
+
