@@ -9,4 +9,24 @@ Some of the common data strutures are as follows:
 6) Queue - Follows FIFO (First In First Out)
 7) Heap - This data structrue is helpful to find the maximum or minimum element quickly.
 8) Binary tree - A non linear data structure
+
+
+--------------------------------------------------------------------------------------
+                  JAVA IMPORTANT NOTES:
+--------------------------------------------------------------------------------------
   
+Arrays.asList()-->  This is used to create a fixed size list backed by an array.
+*** You can only update the elements using the method set()
+*** You can't add or remove to this .
+
+Eg:  List<String> result=Arrays.asList("A","B","C");
+     result.set(1,"X");
+     System.out.println(result); ---> [A,X,C]
+
+     result.add("D"). --> // Throws UnsupportedOperation Exception
+
+List.of()---> This is used to create truly immutable list. Can't add/remove or update.
+
+List<String> result=List.of("A","B","C");
+result.set(1,"X"); ---> Throws UnsupportedOperation Exception
+
